@@ -1,0 +1,15 @@
+{
+  "name": "video-downloader-api",
+  "version": "1.0.0",
+  "description": "API pour récupérer les liens de téléchargement de vidéos",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^2.6.7",
+    "puppeteer": "^21.3.8",
+    "ytdl-core": "^4.11.2"
+  }
+}
